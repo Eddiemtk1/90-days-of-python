@@ -17,4 +17,4 @@ print(type({'name' : 'Shanks'})) #dictionary (dict)
 print(type({9.2, 2.2, 4.8})) #set
 print(type((9.8, 3.14, 2.7))) # Tuple
 #Difference between a set and a tuple is set uses {}, while tuple uses ()
-#Another difference is 
+#more differences are on https://www.geeksforgeeks.org/python/difference-between-list-vs-set-vs-tuple-in-python/
