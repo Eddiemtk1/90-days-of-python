@@ -47,6 +47,7 @@ circumference_of_circle = pi * radius_of_circle * 2
 print(f'circumference of the circle is {circumference_of_circle} ')
 
 new_radius = input('enter radius: ')
+#or new_radius = int(input('enter radius: '))
 int(new_radius)
 new_area = pi * int(new_radius) ** 2
 print(f'The new area of the circle is {new_area} ')
