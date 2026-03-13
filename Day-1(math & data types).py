@@ -11,7 +11,7 @@ print(5 // 1.1) #floor division returns the largest integer that is less than or
 print(type(11)) #integer (int)
 print(type(1.1)) #float (float)
 print(type('Arnold')) #string (str)
-print(type(1 + 3j)) #complex (complex)
+print(type(1 + 3j)) #complex (complex) a mix of a real number and imaginary number
 print(type([1,2,3])) #List
 print(type({'name' : 'Shanks'})) #dictionary (dict)
 print(type({9.2, 2.2, 4.8})) #set
