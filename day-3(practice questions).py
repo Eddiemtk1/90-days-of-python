@@ -86,27 +86,52 @@ complicated = 1 + 3j
 
 #Question 17
 #Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-check_even = int(input('Enter your number: '))
-result = check_even % 2 == 0
-print(f' the number is even: {result}')
+# check_even = int(input('Enter your number: '))
+# result = check_even % 2 == 0
+# print(f' the number is even: {result}')
 
 #Question 18
 #Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-
+# sentence = 'the floor division of 7 by 3 is equal to the int converted value of 2.7: '
+# floor_division = 7 //3
+# int_convert = int(2.7)
+# print(f'{sentence} {floor_division == int_convert}')
 
 #Question 19
-
-
+#Check if type of '10' is equal to type of 10
+# sentence = "The type of '10' is equal to type of 10:"
+# print(f"{sentence} {type(10) == type('10')}")
 
 #Question 20
-
+#Check if int('9.8') is equal to 10
+# first = int(9.8)
+# sentence = "Check if int('9.8') is equal to 10:"
+# print(f"{sentence} {int(9.8) == 10}")
 
 #Question 21
-
+#Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+# hours_worked = float(input('Enter how many hours you worked: '))
+# rate_per_hour = float(input('Enter your rate per hour: '))
+# wage = hours_worked * rate_per_hour
+# print(f"Your wages are:  {wage} for this week")
 
 #Question 22
-
+#Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+# current_age = int(input('Enter your age: '))
+# life_in_seconds = 60 * 60 * 24 * 365 * current_age
+# print(f"{current_age} in seconds = {life_in_seconds}")
 
 #Question 23
+#Write a Python script that displays the following table
+#1 1 1 1 1
+#2 1 2 4 8
+#3 1 3 9 27
+#4 1 4 16 64
+#5 1 5 25 125
 
+# print(1,1,1**1,1**2,1**3)
+# print(2,1,2**1,2**2,2**3)
+# print(3,1,3**1,3**2,3**3)
+# print(4,1,4**1,4**2,4**3)
+# print(5,1,5**1,5**2,5**3)
 
