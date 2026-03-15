@@ -128,12 +128,97 @@
 
 #index()returns the lowest index of a substring, additional arguments indicate starting and ending index. 
 #if the substring isn't found it returns a valueError
-challenge = 'thirty days of python'
-sub_string = 'da'
-# print(challenge.index(sub_string)) #7
-# print(challenge.index(sub_string,9))#Error
+# challenge = 'thirty days of python'
+# sub_string = 'da'
+# # print(challenge.index(sub_string)) #7
+# # print(challenge.index(sub_string,9))#Error
 
-#rindex() returns the highest index of a substring, additional arguments indicate starting and ending index.
-print(challenge.rindex(sub_string)) #7
-# print(challenge.rindex(sub_string, 9))
-print(challenge.rindex('t',5))#19 #finds the highest index of 't' after index 5.
+# #rindex() returns the highest index of a substring, additional arguments indicate starting and ending index.
+# print(challenge.rindex(sub_string)) #7
+# # print(challenge.rindex(sub_string, 9))
+# print(challenge.rindex('t',5))#19 #finds the highest index of 't' after index 5.
+
+#isalnum() chcks if the variable has only alphanumetric characters
+# challenge = 'thirtyDays'
+# print(challenge.isalnum()) #true
+# challenge = '30Days'
+# print(challenge.isalnum()) #true
+# challenge = 'thirty Days'
+# print(challenge.isalnum()) #False as space is not alphanumeric character
+
+#isalpha() checks if all string elements are alphabet characters doesnt matter if capitalised
+# challenge = 'my name is'
+# print(challenge.isalpha()) #False because of spaces
+# challenge = 'mynameis'
+# print(challenge.isalpha()) #True
+
+#isdecimal() checks if all characters are decimal 0-9
+# challenge = 'thirty days of python'
+# print(challenge.isdecimal()) #false
+# challenge_1 = '123'
+# print(challenge_1.isdecimal()) #true
+# #anything with spaces would return false
+# challenge_2= '\u00b2'
+# print(challenge_2.isdigit()) #false
+
+
+#isdigit() Checks if all characters in a string are numbers (0-9 and some other unicode characters for numbers)
+# challenge_1= '\u00b2'
+# print(challenge_1.isdigit()) #true
+# challenge_2 = '30'
+# print(challenge_2.isdigit())#true
+
+
+#isnumeric() checks if all characters in a string are number or number related, also accepts symbols like ½
+# number = '10'
+# print(number.isnumeric()) #true 
+# number_1 = '\u00BD'
+# print(number_1.isnumeric()) #true
+# number_2 = '10.5'
+# print(number_2.isnumeric()) #false
+
+#isidentifier()checks if a string is a valid variable name
+# problem = '30days of python'
+# print(problem.isidentifier()) #false as variables can't start with number and there's spaces
+# proble_1 = 'thirty_days'
+# print(proble_1.isidentifier()) #true
+
+
+#islower()checks if all alphabet characters in the string are lowercase
+# challenge = 'i am so tired'
+# print(challenge.islower()) #true
+# challenge_1 = 'I AM so tired'
+# print(challenge_1.islower()) #false
+
+#isupper()
+
+
+
+
+#join()
+
+
+
+
+#strip()
+
+
+
+
+#replace()
+
+
+
+#split()
+
+
+
+#title()
+
+
+
+#swapcase()
+
+
+
+#startswith()
