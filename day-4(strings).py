@@ -128,9 +128,12 @@
 
 #index()returns the lowest index of a substring, additional arguments indicate starting and ending index. 
 #if the substring isn't found it returns a valueError
-challenge = 'thirty days of coding'
+challenge = 'thirty days of python'
 sub_string = 'da'
-print(challenge.index(sub_string)) #7
-print(challenge.index(sub_string,9))#Error
+# print(challenge.index(sub_string)) #7
+# print(challenge.index(sub_string,9))#Error
 
 #rindex() returns the highest index of a substring, additional arguments indicate starting and ending index.
+print(challenge.rindex(sub_string)) #7
+# print(challenge.rindex(sub_string, 9))
+print(challenge.rindex('t',5))#19 #finds the highest index of 't' after index 5.
