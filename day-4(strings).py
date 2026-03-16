@@ -190,35 +190,50 @@
 # challenge_1 = 'I AM so tired'
 # print(challenge_1.islower()) #false
 
-#isupper()
+#isupper() checks if all alphabet characters in the string are uppercase
+#numbers and spaces don't count and will return true
+# challenge = 'I NEED SOME SLEEP'
+# print(challenge.isupper())#true
+# challenge_1 =  '123 I NEED SLEEP'
+# print(challenge_1.isupper())#true
 
 
+#join() returns a concatenated string
+# list_uni = ['havard','oxford','yale','cambridge']
+# result_uni = ' . '.join(list_uni)
+# print(result_uni) # havard . oxford . yale . cambridge
 
 
-#join()
+#strip() removes all given chracters starting from the beginning and end of the string
+#removes all the 'n''o''t''h' in the variable.
+# challenge = 'thirty days of pythoonnn'
+# print(challenge.strip('noth')) # 'irty days of py'
 
 
-
-
-#strip()
-
-
-
-
-#replace()
-
-
+# #replace() replaces substring with a given string
+# challenge = 'thirty days of python'
+# print(challenge.replace('python', 'coding')) # 'thirty days of coding'
 
 #split()
+# challenge_1 = 'thirty days of python'
+# print(challenge_1.split()) #['thirty', 'days', 'of', 'python']
+
+# challenge_2 = 'thirty, days, of, python'
+# print(challenge_2.split(', ')) #['thirty', ' days', ' of', ' python']
 
 
+#title() returns a title cased string
+#if its already capital nothing changes
+# challenge = 'thirty days of code'
+# print(challenge.title())
 
-#title()
+#swapcase() converts all uppercase to lowercase and all lower case to upper case
+# challenge_11 = 'my name is eddie'
+# print(challenge_11.swapcase()) #MY NAME IS EDDIE
 
+# challenge_12 = 'MY naMe is EdDie'
+# print(challenge_12.swapcase()) #my NAmE IS eDdIE
 
-
-#swapcase()
-
-
-
-#startswith()
+#startswith() checks if the string stars with a specified string
+# text_1 = 'suffer, as i have'
+# print(text_1.startswith('suffer')) #True
