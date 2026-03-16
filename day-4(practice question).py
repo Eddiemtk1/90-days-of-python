@@ -20,3 +20,4 @@ company = "Coding For All"
 # print(company.swapcase())
 
 print(company.strip("Coding"))
+#
