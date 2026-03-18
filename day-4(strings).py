@@ -138,7 +138,7 @@
 # # print(challenge.rindex(sub_string, 9))
 # print(challenge.rindex('t',5))#19 #finds the highest index of 't' after index 5.
 
-###isalnum() chcks if the variable has only alphanumetric characters
+###isalnum() checks if the variable has only alphanumetric characters
 # challenge = 'thirtyDays'
 # print(challenge.isalnum()) #true
 # challenge = '30Days'
