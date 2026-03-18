@@ -10,4 +10,3 @@
 
 # square brackets 1st = []
 
-d
