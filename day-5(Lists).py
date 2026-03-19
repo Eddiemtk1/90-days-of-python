@@ -47,7 +47,7 @@
 
 
 ##modifying a list
-fruits = ['banana', 'orange', 'mango', 'lemon']
+# fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits[0] = 'avocado'
 # print(fruits) #['avocado', 'orange', 'mango', 'lemon']
 # last_index = len(fruits) - 1
@@ -66,13 +66,13 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 
 
 ##Inserting Items into a List
-fruits.insert(2, 'apple')
-print(fruits) #['banana', 'orange', 'apple', 'mango', 'lemon']
+# fruits.insert(2, 'apple')
+# print(fruits) #['banana', 'orange', 'apple', 'mango', 'lemon']
 
 
 ##Removing Items from a List
-fruits.remove('orange')
-print(fruits) #['banana', 'apple', 'mango', 'lemon']
+# fruits.remove('orange')
+# print(fruits) #['banana', 'apple', 'mango', 'lemon']
 
 
 ##Removing Items Using Pop
@@ -84,40 +84,75 @@ print(fruits) #['banana', 'apple', 'mango', 'lemon']
 
 
 ##Removing Items Using Del
-
-
-
+#The del keyword removes the specified index and can also be used to delete items within index ranges or delete the list completely
+# fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+# del fruits[0]
+# print(fruits) #['orange', 'mango', 'lemon', 'kiwi', 'lime']
+# del fruits [1:3]
+# print(fruits) #['orange', 'kiwi', 'lime']
 
 
 ##Clearing List Items
-
-
+# The clear() method empties lists
+# fruits.clear()
+# print(fruits) #[]
 
 
 ##Copying a List
-
-
+#use the copy() method
+# fruits_2 = fruits.copy()
+# print(fruits_2) #['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
 
 
 ##Joining Lists
+#lists can be joined using + or extend()
+# list_1 = ['gravity','is','a','harness']
+# list_2 = ['what','is','that','melody']
+# list_3 = ['      ']
 
+# final_list = list_1 + list_2
+# print(final_list)#['gravity', 'is', 'a', 'harness', 'what', 'is', 'that', 'melody']
 
+# list_1.extend(list_2)
+# print(list_1) #['gravity', 'is', 'a', 'harness', 'what', 'is', 'that', 'melody']
 
+# list_1.extend(list_3)
+# list_1.extend(list_2)
+# print(list_1)
+#['gravity', 'is', 'a', 'harness', 'what', 'is', 'that', 'melody', '      ', 'what', 'is', 'that', 'melody']
 
 
 ##Counting Items in a List
-
-
+#use count() method to return the number of times an item appears in a list
+# fruits = ['banana', 'orange', 'mango', 'lemon']
+# print(fruits.count('banana'))
 
 
 ##Finding Index of an Item
-
+#index() method returns the index of the first occurence of an item:
+# print(fruits.index('mango')) #2
 
 
 ##Reversing a List
-
-
-
+#reverse(), reverse the order of a list
+# fruits.reverse()
+# print(fruits)#['lemon', 'mango', 'orange', 'banana']
 
 
 ##Sorting List Items
+#sort() method reorders the list in ascending order. It modifies the original list . if an argument of sort() = true, it will arrange the list in descending order
+# fruits = ['banana', 'orange', 'mango', 'lemon']
+# fruits.sort()
+# print(fruits)#['banana', 'lemon', 'mango', 'orange']
+
+# fruits.sort(reverse=True)
+# print(fruits)#['orange', 'mango', 'lemon', 'banana']
+
+
+#sorted()returns the ordered list without changing the original list.
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(sorted(fruits)) #['banana', 'lemon', 'mango', 'orange']
+
+fruits = sorted(fruits, reverse=True)
+print(fruits) #['orange', 'mango', 'lemon', 'banana']
+
