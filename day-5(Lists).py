@@ -10,3 +10,19 @@
 
 # square brackets 1st = []
 
+
+##Accessing list items using positive indexing
+#We can access items in a list using their index, it starts at 0.
+
+#fruits = ['banana', 'orange', 'mango', 'lemon']
+#first_fruit = fruits[0]
+#print(first_fruit)
+
+##Accessing List Items Using Negative Indexing
+#-1 is the last item, -2 is second to last item, etc
+
+#last_fruit = fruits[-1]
+#print(last_fruit)
+
+##Unpacking list items
+
