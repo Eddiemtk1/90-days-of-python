@@ -34,16 +34,90 @@
 
 ##Slicing Items from a List
 #positive indexing we can specific a range of positive indexes by stating the start and end (length - 1) overall layout is (0: 7)
-fruits = ['banana', 'orange', 'mango', 'lemon']
-# orange_and_mango = fruits[1:3]
-# print(orange_and_mango)
-# banana_and_mango = fruits[::2]# take every second item
-# print(banana_and_mango) # ['banana', 'mango']
+# fruits = ['banana', 'orange', 'mango', 'lemon']
+# # orange_and_mango = fruits[1:3]
+# # print(orange_and_mango)
+# # banana_and_mango = fruits[::2]# take every second item
+# # print(banana_and_mango) # ['banana', 'mango']
 
-#negative indexing 
-all_fruits = fruits[-4:]
-orange_mango_lemon = fruits[-3:]
-reverse_fruits = fruits[::-1]
+# #negative indexing 
+# all_fruits = fruits[-4:]
+# orange_mango_lemon = fruits[-3:]
+# reverse_fruits = fruits[::-1]
 
 
 ##modifying a list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+# fruits[0] = 'avocado'
+# print(fruits) #['avocado', 'orange', 'mango', 'lemon']
+# last_index = len(fruits) - 1
+# fruits[last_index] = 'lime'
+# print(fruits) #['avocado', 'orange', 'mango', 'lime']
+
+
+##Checking Items in a List
+# does_exist = 'banana' in fruits
+# print(does_exist)  # True
+
+
+##Adding Items to a List
+# fruits.append('apple')
+# print(fruits) #['banana', 'orange', 'mango', 'lemon', 'apple']
+
+
+##Inserting Items into a List
+fruits.insert(2, 'apple')
+print(fruits) #['banana', 'orange', 'apple', 'mango', 'lemon']
+
+
+##Removing Items from a List
+fruits.remove('orange')
+print(fruits) #['banana', 'apple', 'mango', 'lemon']
+
+
+##Removing Items Using Pop
+#The pop() method removes the specified index, or the last item if index isn't specified
+# fruits.pop()
+# print(fruits) #['banana', 'apple', 'mango']
+# fruits.pop(1)
+# print(fruits)#['banana', 'mango']
+
+
+##Removing Items Using Del
+
+
+
+
+
+##Clearing List Items
+
+
+
+
+##Copying a List
+
+
+
+
+##Joining Lists
+
+
+
+
+
+##Counting Items in a List
+
+
+
+
+##Finding Index of an Item
+
+
+
+##Reversing a List
+
+
+
+
+
+##Sorting List Items
